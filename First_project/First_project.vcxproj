@@ -113,10 +113,10 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Sam\Nuova cartella\Engine_c++_components_based\SDL2_image-2.0.4\include;D:\Sam\Engine_c++\freeglut-3.0.0\include\GL;D:\Sam\Engine_c++\glew-2.1.0\include\GL;C:\Users\Sam\source\repos\First_project\SDL2-2.0.9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\SDL2_image-2.0.4\include;$(SolutionDir)\SDL2-2.0.9\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>D:\Sam\Nuova cartella\Engine_c++_components_based\SDL2_image-2.0.4\lib\x64;D:\Sam\Engine_c++\freeglut-3.0.0\lib\x64;D:\Sam\Engine_c++\glew-2.1.0\lib\Release\x64;C:\Users\Sam\source\repos\First_project\SDL2-2.0.9\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\SDL2_image-2.0.4\lib\x64;$(SolutionDir)\SDL2-2.0.9\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>

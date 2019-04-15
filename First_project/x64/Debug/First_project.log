@@ -1,28 +1,33 @@
-﻿Build started 15/04/2019 17.07.00.
-     1>Project "D:\Sam\Nuova cartella\Engine_c++_components_based\First_project\First_project.vcxproj" on node 2 (Build target(s)).
+﻿Build started 15/04/2019 18.17.39.
+     1>Project "D:\Program(x86)\GitHub\Test_Engine_Component_Based\First_project\First_project.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
-         Creating "x64\Debug\First_project.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "x64\Debug\First_project.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"D:\Sam\Nuova cartella\Engine_c++_components_based\SDL2_image-2.0.4\include" /I"D:\Sam\Engine_c++\freeglut-3.0.0\include\GL" /I"D:\Sam\Engine_c++\glew-2.1.0\include\GL" /I"C:\Users\Sam\source\repos\First_project\SDL2-2.0.9\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt Actor.cpp Window.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\CL.exe /c /I"D:\Program(x86)\GitHub\Test_Engine_Component_Based\\SDL2_image-2.0.4\include" /I"D:\Program(x86)\GitHub\Test_Engine_Component_Based\\SDL2-2.0.9\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc141.pdb" /Gd /TP /FC /errorReport:prompt Actor.cpp Engine.cpp Main.cpp RenderSystem.cpp Scene.cpp SpriteComponent.cpp Window.cpp
          Actor.cpp
+         Engine.cpp
+         Main.cpp
+         RenderSystem.cpp
+         Scene.cpp
+         SpriteComponent.cpp
          Window.cpp
          Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sam\Nuova cartella\Engine_c++_components_based\x64\Debug\First_project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Sam\Nuova cartella\Engine_c++_components_based\SDL2_image-2.0.4\lib\x64" /LIBPATH:"D:\Sam\Engine_c++\freeglut-3.0.0\lib\x64" /LIBPATH:"D:\Sam\Engine_c++\glew-2.1.0\lib\Release\x64" /LIBPATH:"C:\Users\Sam\source\repos\First_project\SDL2-2.0.9\lib\x64" SDL2.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Sam\Nuova cartella\Engine_c++_components_based\x64\Debug\First_project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sam\Nuova cartella\Engine_c++_components_based\x64\Debug\First_project.lib" /MACHINE:X64 x64\Debug\Actor.obj
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program(x86)\GitHub\Test_Engine_Component_Based\x64\Debug\First_project.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\Program(x86)\GitHub\Test_Engine_Component_Based\\SDL2_image-2.0.4\lib\x64" /LIBPATH:"D:\Program(x86)\GitHub\Test_Engine_Component_Based\\SDL2-2.0.9\lib\x64" SDL2.lib SDL2_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\Program(x86)\GitHub\Test_Engine_Component_Based\x64\Debug\First_project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program(x86)\GitHub\Test_Engine_Component_Based\x64\Debug\First_project.lib" /MACHINE:X64 x64\Debug\Actor.obj
          x64\Debug\Engine.obj
          x64\Debug\Main.obj
          x64\Debug\RenderSystem.obj
          x64\Debug\Scene.obj
          x64\Debug\SpriteComponent.obj
          x64\Debug\Window.obj
-         First_project.vcxproj -> D:\Sam\Nuova cartella\Engine_c++_components_based\x64\Debug\First_project.exe
+         First_project.vcxproj -> D:\Program(x86)\GitHub\Test_Engine_Component_Based\x64\Debug\First_project.exe
        FinalizeBuildStatus:
          Deleting file "x64\Debug\First_project.tlog\unsuccessfulbuild".
          Touching "x64\Debug\First_project.tlog\First_project.lastbuildstate".
-     1>Done Building Project "D:\Sam\Nuova cartella\Engine_c++_components_based\First_project\First_project.vcxproj" (Build target(s)).
+     1>Done Building Project "D:\Program(x86)\GitHub\Test_Engine_Component_Based\First_project\First_project.vcxproj" (Build target(s)).
 
 Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:01.57
+Time Elapsed 00:00:03.53
