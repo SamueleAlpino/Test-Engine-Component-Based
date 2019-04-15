@@ -1,0 +1,160 @@
+#pragma once
+
+#include "Engine.h"
+#include "Window.h"
+#include <iostream>
+#include <glad/glad.h>
+//namespace engine
+//{
+//	class Sprite
+//	{
+//		public:
+//			int X;
+//			int Y;
+//			int* something;
+//			Sprite() : X(0), Y(0)
+//			{
+//				something = new int[200];
+//				printf("ctor()\n");
+//			}
+//
+//			~Sprite()
+//			{
+//				delete[](something);
+//				printf("dtor()\n");
+//			}
+//	};
+//}
+
+//Su windows viene chiamato main dopo aver chiamato altra roba, su Mac il main è la prima funzione chiamata
+//int main(int argc, char**argv)
+//{
+//	//in c++ posso creare i miei scope
+//	{
+//		//inizializzazione a 0
+//		engine::Sprite sprite = engine::Sprite();
+//		printf("Sprite x:%d y:%d\n", sprite.X, sprite.Y);
+//	}
+//	getchar();
+//	return 0;
+//}
+
+//progetto  -> proprietà:
+//1- c/c++  -> AdditionalIncludeDirectories e aggiungere il path alla cartella dove ci sono gli header da includere
+//2- linker -> AdditionalLibraryDirectories e aggiungere i file .lib
+//3- input  -> Aggiungere nome lib example. SDL2.lib
+//4- copiare il file dll in x64 -> Debug
+//class GameRenderer : public engine::Renderer
+//{
+//public:
+//	GameRenderer(engine::Window& InWindow) : engine::Renderer(InWindow) {}
+//	void Tick() override;
+//};
+//
+//void GameRenderer::Tick()
+//{
+//	DrawLine(500, 20, 400, 500);
+//}
+
+
+//static int aivlua_culo(lua_State* L)
+//{
+//	//lo stack della funzione al primo posto ha il numero di argomenti
+//	std::cout << "top of the stack: " << lua_gettop(L) << std::endl;
+//	
+//	//l errore sta nello stack globale
+//	return luaL_error(L, "error");
+//	lua_pushstring(L, "hello, i am culo");
+//	return 1;
+//}
+
+
+//I singletone impediscono i test e quindi non bisogna usarli
+int main(int argc, char**argv)
+{
+//
+//	lua_State* L = luaL_newstate();
+//
+//	//apre sotto cartelle come table ,corroutine, utile se non vogliamo usare la standar library di lua
+//	luaL_openlibs(L);
+//
+//	lua_pushglobaltable(L);
+//	lua_pushstring(L, "culo");
+//	lua_pushcfunction(L, aivlua_culo);
+//	lua_settable(L, -3);
+//
+//	lua_pop(L, 1);
+//
+//	luaL_loadfile(L, "test.lua");
+//	std::cout << lua_gettop(L) << std::endl;
+//
+////	char* error;
+////	lua_pcall(L,0,1,(int)error);
+//
+//	if (lua_pcall(L, 0, 1, 0))
+//	{
+//		std::cout << lua_tostring(L, -1) << std::endl;
+//		std::getchar();
+//	}
+//
+//	lua_pushglobaltable(L);
+//	lua_pushstring(L, "_VERSION");
+//	
+//	//prende la tabella a quell' indice, prende la chiave all indice precedente e legge cosa fa
+//	lua_gettable(L, -2);
+//	//lua_rawget(L, -2);
+//	//il valore di ritorno in cima allo stack ce l ' ho al primo posto quindi -1
+//	const char* value = lua_tostring(L, -1);
+//	std::cout << value << " " << lua_gettop(L) << "\n" << std::endl;
+//
+//	std::getchar();
+//	//lua_pop(L, 2);
+//	lua_pop(L, 1);
+//
+//	lua_pushstring(L, "stronzi");
+//	lua_newtable(L);
+//	lua_settable(L,-3);
+//
+//	//prendi il campo stronzi all interno della tabella globale
+//	//equivale a push e get
+//	lua_getfield(L, -1, "stronzi");
+//
+//	lua_pushstring(L, "alan");
+//	lua_pushstring(L, "flashdance");
+//	lua_settable(L,-3);
+//
+//	lua_pop(L, 3);
+//
+//	lua_pushglobaltable(L);
+//	//lua_pushstring(L, "alan");
+//	value = lua_tostring(L,-1);
+//	//prende la tabella a quell' indice, prende la chiave all indice precedente e legge cosa fa
+//	lua_gettable(L, -2);
+//	//il valore di ritorno in cima allo stack ce l ' ho al primo posto quindi -1
+//	std::cout << value << " " << lua_gettop(L) << " " << lua_type (L,-1) << " " << luaL_typename(L, -1) << std::endl;
+//
+//	lua_pop(L, 2);
+//	lua_close(L);
+//	std::getchar();
+//
+//	return 0;
+
+
+	//engine::Window Window("Hello", 1024, 768);
+	//engine::Window* myWindow = new engine::Window[1];
+
+	
+	//engine::Engine* MyEngine = new engine::Engine(Window);
+
+	//MyEngine->UpdateSystems();
+	/*for (;;)
+	{
+		if (Window.DequeueEvents())
+			break;
+
+		Renderer.Clear();
+		Renderer.Tick();
+		Renderer.Present();
+	}*/
+
+}
